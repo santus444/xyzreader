@@ -127,6 +127,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                     mPager.setCurrentItem(position, false);
                     break;
                 }
+
                 mCursor.moveToNext();
             }
             mStartId = 0;
